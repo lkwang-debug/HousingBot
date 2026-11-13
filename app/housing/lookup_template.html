@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<title>__DISTRICT__ 保障房摇号排位查询</title>
+<style>
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;padding:16px;background:#f6f7f9;color:#1f2329}
+.card{background:white;border-radius:12px;padding:16px;margin:0 auto 12px;max-width:800px;box-shadow:0 1px 4px #0001}
+h1{font-size:20px;margin:0 0 10px}h2{font-size:17px}h3{font-size:15px;margin:16px 0 8px}.sub,.note{color:#667085;font-size:13px;line-height:1.7}
+.scenario-card{background:#fff;border-radius:8px;padding:12px;margin-top:12px;line-height:1.7;overflow-wrap:anywhere}.comparison p{line-height:1.7}
+input,select{width:100%;box-sizing:border-box;font-size:16px;padding:12px;border:1px solid #d0d5dd;border-radius:8px;background:white}
+button{width:100%;margin-top:10px;font-size:16px;padding:12px;border:0;border-radius:8px;background:#0b6bcb;color:white;cursor:pointer}
+.item{border-top:1px solid #e4e7ec;padding:16px 0}.item:first-child{border:0}.k{font-size:13px;color:#667085;margin-top:12px}.v{font-size:15px;line-height:1.6;overflow-wrap:anywhere}
+.query-number{background:#eaf3ff;border-left:4px solid #0b6bcb;padding:12px;font-weight:700;overflow-wrap:anywhere}.warn{color:#9a6700}.result-box{background:#f4f7fb;padding:12px;border-radius:8px;margin-top:12px}
+details{margin-top:18px;border:1px solid #c9d9ed;border-radius:10px;padding:14px}summary{font-size:16px;color:#075da9;font-weight:700;cursor:pointer}
+label{display:block;margin-top:12px;line-height:1.6}label.project{padding:9px;background:#f7f9fc;border-radius:6px}input[type=checkbox],input[type=radio]{width:auto;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{border:1px solid #d5dfe9;padding:6px;overflow-wrap:normal}th{background:#edf4fc}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.source{font-size:13px}a{color:#0b6bcb}.cta{margin-top:12px}
+.rank-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}.rank-card{background:#eaf3ff;padding:14px;border-radius:8px}.rank-card strong{display:block;font-size:24px;color:#075da9;margin-top:6px}.conclusion{font-size:18px;color:#153e64;line-height:1.6}.input-hint{margin:6px 0 0}
+@media(max-width:460px){body{padding:10px}.row{grid-template-columns:1fr}.card{padding:14px}}
+</style></head><body>
+<div class="card" id="gate" hidden></div><div id="app" hidden>
+<div class="card"><h1>__DISTRICT__ 保障房摇号排位查询</h1>
+<p class="sub" id="link-validity"></p>
+<p class="sub">输入认租编号，并选择申请系统或最新核查确认的队列，再查看排名和房源信息。</p>
+<label for="q">认租编号<input id="q" placeholder="请输入完整认租编号" autocomplete="off" aria-label="认租编号"></label>
+<label for="q-queue">本人队列<select id="q-queue" aria-label="本人队列"><option value="">请选择本人队列</option></select></label>
+<p class="note input-hint">认租编号本身不能判断队列，请按申请系统或最新核查选择。</p>
+<button id="go">查排名</button></div>
+<div class="card" id="out" style="display:none" aria-live="polite"></div>
+<div class="card note">数据来自官方公开名单，不含姓名和证件号。摇号顺序与最终选房顺序可能不同，以最新资格核查及选房通知为准。你填写的家庭信息只在当前页面计算，不会发送到群里。</div></div>
+<script>
+const DATA = __DATA__;
+const $ = (id) => document.getElementById(id);
+__OPPORTUNITY_JS__
+__LOOKUP_UI_JS__
+</script>
+__GATE_SCRIPT__
+</body></html>

@@ -1,0 +1,23 @@
+{
+  "_说明": "复制为groups.json；填写自己的群编码后再启用。",
+  "groups": [
+    {
+      "id": "example-city",
+      "name": "示例全市群",
+      "topic": "",
+      "regions": [],
+      "tier": "basic",
+      "enabled": false
+    },
+    {
+      "id": "example-district",
+      "name": "示例区域群",
+      "topic": "",
+      "regions": [
+        "光明区"
+      ],
+      "tier": "pro",
+      "enabled": false
+    }
+  ]
+}

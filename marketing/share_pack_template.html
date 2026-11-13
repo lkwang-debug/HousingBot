@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>住房日报完整分页</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:#e9edf4;color:#142136;
+ font-family:"Microsoft YaHei","PingFang SC","Segoe UI Emoji",sans-serif}
+.sheet{width:1080px;height:var(--sheet-height,1920px);background:#fff;padding:42px 54px 28px;display:flex;
+ flex-direction:column;gap:20px;overflow:visible}
+.header{height:138px;flex-shrink:0;border-bottom:3px solid #1d527d;padding-bottom:14px}
+.brand{font-size:27px;letter-spacing:2px;color:#1d527d;font-weight:700}
+.stamp{font-size:38px;font-weight:700;line-height:1.55;color:#102c48}
+.context{font-size:23px;line-height:1.4;color:#62748a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.content{flex:1;min-height:0;display:flow-root;overflow:visible}
+.unit{margin:0 0 18px;overflow-wrap:anywhere}
+.unit.batch{padding:17px 19px;border:1px solid #dce6f0;border-left:5px solid #3675a8;
+ border-radius:0 12px 12px 0;background:#f6f9fd}
+.fragment{font-size:34px;line-height:1.55;white-space:pre-wrap;margin:0;overflow-wrap:anywhere}
+.fragment+.fragment{margin-top:13px}
+.fragment.h1,.fragment.h2{font-size:42px;line-height:1.4;font-weight:700;color:#173d62}
+.fragment.h3,.fragment.h4{font-size:38px;line-height:1.4;font-weight:700;color:#1d527d;
+ padding:10px 0;border-bottom:2px solid #dfe7ef}
+.fragment.batch-title{font-size:33px;line-height:1.48;font-weight:700;color:#144a78}
+.fragment.code{font-family:Consolas,"Microsoft YaHei",monospace;background:#f2f4f7;padding:8px}
+.fragment.rule{font-size:24px;color:#b4c1ce}
+.atomic{white-space:nowrap}
+.table-block{font-size:30px;line-height:1.35;white-space:normal;overflow-wrap:anywhere}
+.table-block table{width:100%;border-collapse:collapse;table-layout:fixed;background:#fff}
+.table-block th,.table-block td{border:2px solid #aebfd0;padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.table-block th{background:#eaf2fb;font-weight:700;color:#173d62}
+.continued{font-size:25px;color:#3675a8;font-weight:700;margin-bottom:10px}
+.footer{height:60px;flex-shrink:0;border-top:1px solid #dfe6ee;padding-top:10px;
+ font-size:23px;line-height:1.45;color:#607287;display:flex;justify-content:space-between;gap:20px}
+.footer .page-number{font-weight:700;color:#173d62;white-space:nowrap}
+</style>
+<div id="pages"></div>
+<script id="report-data" type="application/json">__REPORT_DATA__</script>
+<script>
+(async function(){
+try {
+const data=JSON.parse(document.getElementById('report-data').textContent);
+document.documentElement.style.setProperty('--sheet-height',data.height+'px');
+const root=document.getElementById('pages'),pages=[];
+const segmentation=new Intl.Segmenter('zh',{granularity:'grapheme'});
+const atomicPattern=()=>/(?:20\d{2}-)?\d{2}-\d{2}(?: \d{2}:\d{2})?|\d{2}:\d{2}|〔S\d+〕/g;
+function graphemes(text){
+ const units=[];let position=0;
+ for(const match of text.matchAll(atomicPattern())){
+  units.push(...Array.from(segmentation.segment(text.slice(position,match.index)),x=>x.segment));
+  units.push(match[0]);position=match.index+match[0].length;
+ }
+ units.push(...Array.from(segmentation.segment(text.slice(position)),x=>x.segment));return units;
+}
+function appendText(el,text){
+ let position=0;
+ for(const match of text.matchAll(atomicPattern())){
+  el.append(document.createTextNode(text.slice(position,match.index)));
+  const atom=document.createElement('span');atom.className='atomic';atom.textContent=match[0];el.append(atom);
+  position=match.index+match[0].length;
+ }
+ el.append(document.createTextNode(text.slice(position)));
+}
+const date=data.generated_at.slice(0,10),clock=data.generated_at.slice(11,16);
+const timestamp=date+(data.show_clock===false?'':' '+clock);
+let page;
+function makePage(){
+ const el=document.createElement('section');el.className='sheet';
+ const header=document.createElement('header');header.className='header';
+ const brand=document.createElement('div');brand.className='brand';brand.textContent='深圳住房管家 · 完整群分享';
+ const stamp=document.createElement('div');stamp.className='stamp';stamp.textContent=date+' '+data.label+(data.show_clock===false?'':' · '+clock);
+ const context=document.createElement('div');context.className='context';
+ header.append(brand,stamp,context);
+ const content=document.createElement('main');content.className='content';
+ const footer=document.createElement('footer');footer.className='footer';
+ const note=document.createElement('div');note.textContent='报表时间 '+timestamp+'（北京时间）\n公开信息整理 · 非官方账号';
+ const number=document.createElement('div');number.className='page-number';footer.append(note,number);
+ el.append(header,content,footer);root.append(el);
+ const result={el,content,context,number};pages.push(result);return result;
+}
+function fits(p){
+ const rect=p.content.getBoundingClientRect(),last=p.content.lastElementChild;
+ return p.content.scrollHeight<=p.content.clientHeight+1 && p.content.scrollWidth<=p.content.clientWidth+1 && (!last||last.getBoundingClientRect().bottom<=rect.bottom+1);
+}
+function unit(group,continued=false){
+ const el=document.createElement('div');el.className='unit '+group.kind;
+ el.dataset.section=group.section||'';
+ if(continued&&group.kind==='batch'){
+  const caption=document.createElement('div');caption.className='continued';caption.textContent=group.label+' · 接上页';el.append(caption);
+ }
+ return el;
+}
+function fragment(block,start=0,end=null){
+ if(block.kind==='table'){
+  const el=document.createElement('div');el.className='fragment table-block';el.dataset.blockId=block.id;
+  const table=block.table&&block.table[0];if(!table)return el;
+  const [headers,rows]=table;end=end===null?rows.length:end;el.dataset.start=start;el.dataset.end=end;
+  const html=document.createElement('table'),colgroup=document.createElement('colgroup');
+  const weights=headers.length===3&&headers[1]==='当前状态'?[43,42,15]:headers.length===4&&headers[0].includes('档位')?[40,20,20,20]:headers.map(()=>100/headers.length);
+  weights.forEach(w=>{const col=document.createElement('col');col.style.width=w+'%';colgroup.append(col)});html.append(colgroup);
+  const thead=document.createElement('thead'),head=document.createElement('tr');headers.forEach(value=>{const cell=document.createElement('th');cell.textContent=value;head.append(cell)});thead.append(head);html.append(thead);
+  const body=document.createElement('tbody');rows.slice(start,end).forEach(row=>{const tr=document.createElement('tr');row.forEach(value=>{const cell=document.createElement('td');cell.textContent=value;tr.append(cell)});body.append(tr)});html.append(body);
+  el.append(html);return el;
+ }
+ const chars=graphemes(block.text);end=end===null?chars.length:end;
+ const el=document.createElement('div');el.className='fragment '+block.kind;
+ if(block.kind==='p'&&block.text.startsWith('【'))el.classList.add('batch-title');
+ el.dataset.blockId=block.id;el.dataset.start=start;el.dataset.end=end;
+ appendText(el,chars.slice(start,end).join(''));return el;
+}
+function whole(group){const el=unit(group);for(const b of group.blocks)el.append(fragment(b));return el;}
+function addTable(group){
+ const block=group.blocks[0],rows=block.table[0][1];let start=0;
+ do{
+  let box=unit(group);page.content.append(box);
+  if(start>0){const note=document.createElement('div');note.className='continued';note.textContent='表格接上页';box.append(note)}
+  if(!rows.length){box.append(fragment(block,0,0));if(!fits(page))throw new Error('表头无法放入页面');break;}
+  let low=start+1,high=rows.length,best=start;
+  while(low<=high){const mid=Math.floor((low+high)/2),test=fragment(block,start,mid);box.append(test);const ok=fits(page);test.remove();if(ok){best=mid;low=mid+1}else high=mid-1;}
+  if(best===start){
+   box.remove();
+   if(!page.content.querySelector('.fragment'))throw new Error('表格单行过高，无法在保持字号和全文的条件下排入图片');
+   page=makePage();continue;
+  }
+  box.append(fragment(block,start,best));start=best;if(start<rows.length)page=makePage();
+ }while(start<rows.length);
+}
+function addPlain(group){
+ let box=unit(group);page.content.append(box);
+ for(const block of group.blocks){
+  let node=fragment(block);box.append(node);
+  if(fits(page))continue;
+  node.remove();
+  if(block.kind==='table'){
+   page=makePage();box=unit(group,true);page.content.append(box);box.append(fragment(block));
+   if(!fits(page))throw new Error('表格过长，无法完整放入图片页');
+   continue;
+  }
+  if(box.querySelector('.fragment')){
+   page=makePage();box=unit(group,true);page.content.append(box);
+  }
+  node=fragment(block);box.append(node);
+  if(fits(page))continue;
+  node.remove();
+  const chars=graphemes(block.text);let start=0;
+  while(start<chars.length){
+   let low=start+1,high=chars.length,best=start;
+   while(low<=high){
+    const mid=Math.floor((low+high)/2),test=fragment(block,start,mid);box.append(test);
+    const ok=fits(page);test.remove();if(ok){best=mid;low=mid+1;}else high=mid-1;
+   }
+   if(best===start){
+    if(!page.content.querySelector('.fragment'))throw new Error('单个字形无法放入页面');
+    if(!box.querySelector('.fragment'))box.remove();
+    page=makePage();box=unit(group,true);page.content.append(box);continue;
+   }
+   box.append(fragment(block,start,best));start=best;
+   if(start<chars.length){page=makePage();box=unit(group,true);page.content.append(box);}
+  }
+ }
+ if(!box.querySelector('.fragment'))box.remove();
+}
+page=makePage();await document.fonts.ready;
+let pending=[];
+for(let groupIndex=0;groupIndex<data.groups.length;groupIndex++){
+ const group=data.groups[groupIndex];
+ if(group.kind==='heading'){pending.push(group);continue;}
+ if(group.kind==='table'){
+  const headings=pending.map(whole);headings.forEach(n=>page.content.append(n));
+  const probe=unit(group);probe.append(fragment(group.blocks[0],0,Math.min(1,group.blocks[0].table[0][1].length)));page.content.append(probe);
+  const okay=fits(page);probe.remove();
+  if(!okay&&page.content.querySelector('.fragment')){headings.forEach(n=>n.remove());page=makePage();headings.forEach(n=>page.content.append(n));}
+  pending=[];addTable(group);continue;
+ }
+ const additions=[...pending,group],nodes=additions.map(whole);
+ for(const node of nodes)page.content.append(node);
+ if(fits(page)){
+  const next=data.groups[groupIndex+1];
+  if(next&&next.kind==='table'){
+   const probe=unit(next);probe.append(fragment(next.blocks[0],0,Math.min(1,next.blocks[0].table[0][1].length)));page.content.append(probe);const okay=fits(page);probe.remove();
+   if(!okay){nodes.forEach(n=>n.remove());if(page.content.querySelector('.fragment'))page=makePage();nodes.forEach(n=>page.content.append(n));}
+  }
+  pending=[];continue;
+ }
+ for(const node of nodes)node.remove();
+ if(page.content.querySelector('.fragment'))page=makePage();
+ for(const node of nodes)page.content.append(node);
+ if(fits(page)){pending=[];continue;}
+ for(const node of nodes)node.remove();
+ for(const item of pending)addPlain(item);
+ pending=[];addPlain(group);
+}
+for(const item of pending)addPlain(item);
+await document.fonts.ready;
+if(pages.some(p=>!p.content.querySelector('.fragment')))throw new Error('生成了空白页');
+const result=[];
+for(let i=0;i<pages.length;i++){
+ const p=pages[i];p.number.textContent=String(i+1).padStart(2,'0')+' / '+String(pages.length).padStart(2,'0');
+ const sections=[...new Set([...p.content.children].map(e=>e.dataset.section).filter(Boolean))];
+ p.context.textContent=sections.join(' · ');
+ const fragments=[...p.content.querySelectorAll('.fragment')].map(el=>{
+  const result={block_id:Number(el.dataset.blockId),start:Number(el.dataset.start),end:Number(el.dataset.end),text:el.textContent};
+  if(el.classList.contains('table-block')){
+   result.headers=[...el.querySelectorAll('thead th')].map(c=>c.textContent);
+   result.rows=[...el.querySelectorAll('tbody tr')].map(tr=>[...tr.querySelectorAll('td')].map(c=>c.textContent));
+   result.text=[...(result.start===0?[result.headers.join(' | ')]:[]),...result.rows.map(r=>r.join(' | '))].join('\n');
+  }
+  return result;
+ });
+ result.push({number:i+1,fits:fits(p),fragments});
+}
+window.showPage=index=>{
+ for(let i=0;i<pages.length;i++)pages[i].el.style.display=i===index?'flex':'none';
+ scrollTo(0,0);window.activePage=index;
+};
+window.validateVisiblePage=()=>{
+ const p=pages[window.activePage],r=p.el.getBoundingClientRect();
+ return fits(p)&&r.left>=0&&r.top>=0&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1;
+};
+window.paginationResult={pages:result,viewport:{width:innerWidth,height:innerHeight}};
+const selected=Number(new URLSearchParams(location.search).get('page')||0);window.showPage(selected);
+}catch(error){window.paginationResult={error:String(error.message||error)};}
+})();
+</script>
+</html>

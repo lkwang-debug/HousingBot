@@ -1,0 +1,265 @@
+{
+  "version": 2,
+  "sources": [
+    {
+      "key": "sz_market_tzgg",
+      "name": "深圳市住建局-住房保障通知公告",
+      "level": "city",
+      "region_code": "深圳市",
+      "entry_url": "https://zjj.sz.gov.cn/ztfw/zfbz/tzgg2017/",
+      "adapter": "nfcms",
+      "priority": 95,
+      "enabled": true
+    },
+    {
+      "key": "sz_market_fpgc",
+      "name": "深圳市住建局-分配过程",
+      "level": "city",
+      "region_code": "深圳市",
+      "entry_url": "https://zjj.sz.gov.cn/ztfw/zfbz/fpgc/",
+      "adapter": "nfcms",
+      "priority": 100,
+      "enabled": true
+    },
+    {
+      "key": "sz_market_tcxx",
+      "name": "深圳市住建局-退出信息",
+      "level": "city",
+      "region_code": "深圳市",
+      "entry_url": "https://zjj.sz.gov.cn/ztfw/zfbz/tcxx/",
+      "adapter": "nfcms",
+      "priority": 85,
+      "enabled": true,
+      "table_kind": "exit"
+    },
+    {
+      "key": "sz_market_xxgk",
+      "name": "深圳市住建局-信息公开通知公告",
+      "level": "city",
+      "region_code": "深圳市",
+      "entry_url": "https://zjj.sz.gov.cn/xxgk/tzgg/",
+      "adapter": "nfcms",
+      "priority": 75,
+      "enabled": true
+    },
+    {
+      "key": "ft_gkmlpt",
+      "name": "福田区住建局-通知公告",
+      "level": "district",
+      "region_code": "福田区",
+      "entry_url": "http://www.szft.gov.cn/ftqjsj/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [9084],
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "ft_tzgg",
+      "name": "福田区-住房保障政策法规",
+      "level": "district",
+      "region_code": "福田区",
+      "entry_url": "http://www.szft.gov.cn/bmxx/qjsj/bzf/zcfg/index.html",
+      "adapter": "nfcms",
+      "priority": 70,
+      "enabled": true
+    },
+    {
+      "key": "lh_gkmlpt",
+      "name": "罗湖区住建局-通知公告",
+      "level": "district",
+      "region_code": "罗湖区",
+      "entry_url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [12588],
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "lh_xmgs",
+      "name": "罗湖区-保障房项目公示",
+      "level": "district",
+      "region_code": "罗湖区",
+      "entry_url": "https://www.szlh.gov.cn/zwgk/zdlyxxgk/bzxzf/xmgs/",
+      "adapter": "nfcms",
+      "priority": 75,
+      "enabled": true
+    },
+    {
+      "key": "lh_tcxx",
+      "name": "罗湖区-保障房退出信息",
+      "level": "district",
+      "region_code": "罗湖区",
+      "entry_url": "https://www.szlh.gov.cn/zwgk/zdlyxxgk/bzxzf/tcxx/",
+      "adapter": "gkmlpt",
+      "api_template": "https://www.szlh.gov.cn/postmeta/i/108894.json?page={page}",
+      "priority": 80,
+      "enabled": true,
+      "table_kind": "exit"
+    },
+    {
+      "key": "ns_exit",
+      "name": "南山区-项目分配及退出公告",
+      "level": "district",
+      "region_code": "南山区",
+      "entry_url": "https://www.szns.gov.cn/bsfw/ztfw/zflyfwzt/xmfpjtcgg/",
+      "adapter": "nfcms",
+      "priority": 95,
+      "enabled": true
+    },
+    {
+      "key": "ns_gkmlpt",
+      "name": "南山区住建局-通知公告",
+      "level": "district",
+      "region_code": "南山区",
+      "entry_url": "https://www.szns.gov.cn/nsqzjj/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [22234, 15162],
+      "priority": 80,
+      "enabled": true
+    },
+    {
+      "key": "yt_tzgg",
+      "name": "盐田区-住房保障通知公告",
+      "level": "district",
+      "region_code": "盐田区",
+      "entry_url": "https://www.yantian.gov.cn/cn/service/zdywly/bzxzf/tzgg/",
+      "adapter": "nfcms",
+      "priority": 80,
+      "enabled": true
+    },
+    {
+      "key": "ba_gkmlpt",
+      "name": "宝安区住建局-通知公告",
+      "level": "district",
+      "region_code": "宝安区",
+      "entry_url": "https://www.baoan.gov.cn/bajshej/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [5445],
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "lhq_zfbz",
+      "name": "龙华区-住房保障动态",
+      "level": "district",
+      "region_code": "龙华区",
+      "entry_url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/",
+      "adapter": "nfcms",
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "lhq_gkmlpt",
+      "name": "龙华区住建局-通知公告",
+      "level": "district",
+      "region_code": "龙华区",
+      "entry_url": "https://www.szlhq.gov.cn/lhzfhjsj/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [14151, 14152],
+      "priority": 75,
+      "enabled": true
+    },
+    {
+      "key": "lg_lhpz",
+      "name": "龙岗区-轮候配租",
+      "level": "district",
+      "region_code": "龙岗区",
+      "entry_url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/lhpz/index.html",
+      "adapter": "nfcms",
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "lg_rcaj",
+      "name": "龙岗区-人才安居(保租房)",
+      "level": "district",
+      "region_code": "龙岗区",
+      "entry_url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/rcaj/index.html",
+      "adapter": "nfcms",
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "gm_tzgg",
+      "name": "光明区-通知公告",
+      "level": "district",
+      "region_code": "光明区",
+      "entry_url": "https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/gzgg/",
+      "adapter": "nfcms",
+      "priority": 80,
+      "enabled": true
+    },
+    {
+      "key": "gm_bzcs",
+      "name": "光明区-保障性住房专栏",
+      "level": "district",
+      "region_code": "光明区",
+      "entry_url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/index.html",
+      "adapter": "nfcms",
+      "priority": 95,
+      "enabled": true
+    },
+    {
+      "key": "gm_gkmlpt",
+      "name": "光明区住建局-通知公告",
+      "level": "district",
+      "region_code": "光明区",
+      "entry_url": "https://www.szgm.gov.cn/gmzfhjsjcsgx/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [11184],
+      "priority": 70,
+      "enabled": true
+    },
+    {
+      "key": "ps_zfbzzx",
+      "name": "坪山区住房保障中心-通知公告",
+      "level": "district",
+      "region_code": "坪山区",
+      "entry_url": "https://www.szpsq.gov.cn/pszfbzzx/gkmlpt/index",
+      "adapter": "gkmlpt",
+      "classify_ids": [16835],
+      "priority": 80,
+      "enabled": true
+    },
+    {
+      "key": "ps_fptg",
+      "name": "坪山区-分配通告",
+      "level": "district",
+      "region_code": "坪山区",
+      "entry_url": "https://www.szpsq.gov.cn/ztfw/zfbzfw/fptg/",
+      "adapter": "nfcms",
+      "priority": 95,
+      "enabled": true
+    },
+    {
+      "key": "ps_fpgc",
+      "name": "坪山区-分配过程",
+      "level": "district",
+      "region_code": "坪山区",
+      "entry_url": "https://www.szpsq.gov.cn/ztfw/zfbzfw/fpgc/",
+      "adapter": "nfcms",
+      "priority": 75,
+      "enabled": true
+    },
+    {
+      "key": "dp_tzgg",
+      "name": "大鹏新区-住房保障通知公告",
+      "level": "district",
+      "region_code": "大鹏新区",
+      "entry_url": "https://www.dpxq.gov.cn/xxgk/zdly/bzxzf/tzgg/",
+      "adapter": "nfcms",
+      "priority": 90,
+      "enabled": true
+    },
+    {
+      "key": "dp_pzps",
+      "name": "大鹏新区-房源分配及退出",
+      "level": "district",
+      "region_code": "大鹏新区",
+      "entry_url": "https://www.dpxq.gov.cn/xxgk/zdly/bzxzf/pzps/index.html",
+      "adapter": "nfcms",
+      "priority": 85,
+      "enabled": true
+    }
+  ]
+}

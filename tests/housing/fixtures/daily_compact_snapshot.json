@@ -1,0 +1,1926 @@
+{
+  "kind": "digest",
+  "generated_at": "2026-10-22T09:49:15.632082",
+  "window_start": "2026-10-21T09:49:15.632082",
+  "cards": [
+    {
+      "code": "B143",
+      "batch_id": 143,
+      "title": "坪山区住房保障中心关于2026年第三批次面向符合收入财产限额标准的坪山区户籍在册轮候人配租公共租赁住房有关事项的通告",
+      "profile": {
+        "level": "district",
+        "region": "坪山区",
+        "organizer": "坪山区住房保障中心",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件： （一）2026年10月8日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】及之后出具的经济状况核对报告",
+          "注： 1.经济状况核对已转为常态化受理，在册轮候人日常如需申请经济状况核对，请访问深圳市住房和建设局官方网站（ https://zjj.sz.gov.cn/ ），进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，线上提出经济状况核对申请后，须自行打印《深圳市公共租赁住房申请家庭经济状况申报表》《承诺和授权书》及《关于公共租赁住房配租有关事项的提醒告知书》，其中《关于公共租赁住房配租有关事项的提醒告知书》《承诺和授权书》需申请人和成年共同申请人携带身份证至住房保障业务受理窗口现场签署和提交",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          2322
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        143,
+        2322
+      ],
+      "references": [
+        {
+          "id": 143,
+          "title": "坪山区住房保障中心关于2026年第三批次面向符合收入财产限额标准的坪山区户籍在册轮候人配租公共租赁住房有关事项的通告",
+          "url": "https://www.szpsq.gov.cn/pszfbzzx/gkmlpt/content/13/13008/post_13008808.html",
+          "published_at": "2026-10-08T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "applying",
+      "is_open": true,
+      "in_transit": true,
+      "start": "2026-10-09T09:00:00",
+      "end": "2026-10-22T17:30:00",
+      "units": 393,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租中"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B129",
+      "batch_id": 129,
+      "title": "南山区住房和建设局关于2026年度面向南山区户籍在册轮候人配租住房的通告（住保租〔2026〕036号）",
+      "profile": {
+        "level": "district",
+        "region": "南山区",
+        "organizer": "南山区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "2026年10月12日18:00前属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "其中，以下两类在册轮候人认租本批次房源的，须符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有 202 6 年1月1日之后 出具的符合收入财产限额标准的经济状况核对报告： （1）352号令施行之日（2023年8月1日）后提交轮候申请的在册轮候人",
+          "（2）2025年曾发起经济状况核对并已受理的在册轮候人",
+          "轮候人按照原政策认租后，申请经济状况核对的，可能会影响后续的选房签约，请谨慎考虑"
+        ],
+        "employee_conditions": [],
+        "project_regions": [
+          "龙华区"
+        ],
+        "evidence_ids": [
+          129
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        129
+      ],
+      "references": [
+        {
+          "id": 129,
+          "title": "南山区住房和建设局关于2026年度面向南山区户籍在册轮候人配租住房的通告（住保租〔2026〕036号）",
+          "url": "https://www.szns.gov.cn/bsfw/ztfw/zflyfwzt/xmfpjtcgg/content/post_13017556.html",
+          "published_at": "2026-10-13T09:23:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "applying",
+      "is_open": true,
+      "in_transit": true,
+      "start": "2026-10-13T10:00:00",
+      "end": "2026-10-22T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租中"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B2249",
+      "batch_id": 2249,
+      "title": "深圳市龙华区住房和建设局关于2026年面向龙华区户籍在册轮候人配租住房有关事项的通告（住保租〔2026〕040号）",
+      "profile": {
+        "level": "district",
+        "region": "龙华区",
+        "organizer": "深圳市龙华区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次房源配租对象为2026年10月20日18:00属龙华区户籍且在深圳市保障性住房轮候系统登记为龙华区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "其中，以下两类在册轮候人认租本次房源的，须符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有 2026年1月1日之后 出具的经济状况核对报告： （一）352号政府令施行之日（2023年8月1日）后提交轮候申请的在册轮候人",
+          "（二）在2025年4月18日至本次操作认租前曾发起经济状况核对并已受理的在册轮候人"
+        ],
+        "employee_conditions": [],
+        "project_regions": [
+          "龙华区"
+        ],
+        "evidence_ids": [
+          2249
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        2249
+      ],
+      "references": [
+        {
+          "id": 2249,
+          "title": "深圳市龙华区住房和建设局关于2026年面向龙华区户籍在册轮候人配租住房有关事项的通告（住保租〔2026〕040号）",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_13031469.html",
+          "published_at": "2026-10-20T14:28:30",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "applying",
+      "is_open": true,
+      "in_transit": true,
+      "start": "2026-10-21T09:00:00",
+      "end": "2026-10-28T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租中"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B2270",
+      "batch_id": 2270,
+      "title": "深圳市盐田区住房和建设局关于2026年度面向符合收入财产限额标准的盐田区户籍在册轮候人配租公共租赁住房有关事项的通告（住保租〔2026〕043号） ［2026-10-21 ］",
+      "profile": {
+        "level": "district",
+        "region": "盐田区",
+        "organizer": "深圳市盐田区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件： （一）2026年10月21日（含本日）18：00前属于盐田区户籍，且同时在深圳市保障性住房统一轮候系统登记为盐田区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且经济状况核对报告出具日期须在【2026年1月1日】之后",
+          "注：1.经济状况核对已转为常态化受理，在册轮候家庭如需申请经济状况核对，请访问深圳市住房和建设局官方网站，进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，线上提出经济状况核对申请",
+          "在册轮候家庭线上提交经济状况核对申请后，家庭成员（包括申请人和成年共同申请人）携带《深圳市公共租赁住房申请家庭经济状况申报表》到深圳市盐田区住房和建设局受理窗口提交相关资料，现场签署《承诺和授权书》和《关于经济状况核对有关事项的提醒告知书》"
+        ],
+        "employee_conditions": [],
+        "project_regions": [
+          "盐田区"
+        ],
+        "evidence_ids": [
+          2270
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        2270
+      ],
+      "references": [
+        {
+          "id": 2270,
+          "title": "深圳市盐田区住房和建设局关于2026年度面向符合收入财产限额标准的盐田区户籍在册轮候人配租公共租赁住房有关事项的通告（住保租〔2026〕043号） ［2026-10-21 ］",
+          "url": "https://www.yantian.gov.cn/cn/service/zdywly/bzxzf/tzgg/content/post_13033752.html",
+          "published_at": "2026-10-21T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "applying",
+      "is_open": true,
+      "in_transit": true,
+      "start": "2026-10-22T09:00:00",
+      "end": "2026-11-09T18:00:00",
+      "units": 263,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租中"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B1131",
+      "batch_id": 1131,
+      "title": "光明区住房和建设局关于面向高层次人才配租保障性租赁住房有关事项的通告",
+      "profile": {
+        "level": "district",
+        "region": "光明区",
+        "organizer": "光明区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "unknown",
+        "object_text": [
+          "本批次住房配租对象为持有才享光明“人才码”的高层次人才"
+        ],
+        "qualifications": [
+          "高层次人才申请保障性租赁住房应当同时符合以下条件： （一）申请人及共同申请人均未在本市拥有自有住房（院士及国际大奖得主不受该条件限制）"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          1131
+        ],
+        "issues": [
+          "配租对象待核实"
+        ]
+      },
+      "notice_ids": [
+        1131
+      ],
+      "references": [
+        {
+          "id": 1131,
+          "title": "光明区住房和建设局关于面向高层次人才配租保障性租赁住房有关事项的通告",
+          "url": "https://www.szgm.gov.cn/gmzfhjsjcsgx/gkmlpt/content/12/12562/post_12562849.html",
+          "published_at": "2025-12-23T15:15:02",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        }
+      ],
+      "stage": "applying",
+      "is_open": true,
+      "in_transit": true,
+      "start": "2025-12-28T18:00:00",
+      "end": "2026-12-23T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租中"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B1272",
+      "batch_id": 1272,
+      "title": "大鹏新区住房和建设局关于鹏溪苑等十个保障性租赁住房项目配租有关事项的通告（住保租〔2026〕31号）",
+      "profile": {
+        "level": "district",
+        "region": "大鹏新区",
+        "organizer": "大鹏新区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "personal",
+        "object_text": [
+          "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人"
+        ],
+        "qualifications": [
+          "认租本批次住房的，按照资格分为两个队列，具体如下： （一）第一队列：申请人具有大鹏新区户籍，在本市正常缴纳社会保险且累计缴纳社会保险三年以上（养老保险或者医疗保险，不含少儿医疗保险），但在本市退休的除外",
+          "（二）第二队列：申请人在大鹏新区正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险），且在本市累计缴纳社会保险一年以上，但在本市退休的除外",
+          "上述有关户籍信息以2026年9月15日（本通告发布之日）18:00前属于大鹏新区户籍为准，本通告发布之后户籍从其他区迁入大鹏新区不视为符合“大鹏新区户籍”条件"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          2312
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        1272,
+        2312
+      ],
+      "references": [
+        {
+          "id": 1272,
+          "title": "大鹏新区住房和建设局关于鹏溪苑等十个保障性租赁住房项目配租有关事项的通告（住保租〔2026〕31号）",
+          "url": "https://www.dpxq.gov.cn/xxgk/zdly/bzxzf/pzps/content/post_12982375.html",
+          "published_at": "2026-09-15T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-09-16T09:00:00",
+      "end": "2026-09-28T17:30:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "摇号",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": true,
+      "review": null
+    },
+    {
+      "code": "B1316",
+      "batch_id": 1316,
+      "title": "深圳市住房保障署关于面向高层次人才配租保障性租赁住房有关事项的通告",
+      "profile": {
+        "level": "city",
+        "region": "深圳市",
+        "organizer": "深圳市住房保障署",
+        "housing_type": "baozu",
+        "audience": "personal",
+        "object_text": [
+          "本批次住房面向高层次人才配租，包括在本市全职工作的“鹏城优才卡”持卡人，以及其他经市委人才工作领导小组办公室确定的本市急需紧缺人才"
+        ],
+        "qualifications": [
+          "（二）申请人及其配偶、未满18周岁的子女均未在本市拥有自有住房（含住房建设用地），且在申请受理日之前3年内未在本市转让过或者因离婚分割过自有住房",
+          "（三）钻石卡持卡人不受在本市正常缴纳社会保险条件（养老保险或者医疗保险，不含少儿医疗保险）限制",
+          "白金卡、金卡、银卡持卡人按照规定在本市正常缴纳社会保险，但在本市退休的除外"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          1316
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        1316
+      ],
+      "references": [
+        {
+          "id": 1316,
+          "title": "深圳市住房保障署关于面向高层次人才配租保障性租赁住房有关事项的通告",
+          "url": "https://zjj.sz.gov.cn/ztfw/zfbz/tzgg2017/content/post_12942745.html",
+          "published_at": "2026-08-19T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-08-19T16:00:00",
+      "end": "2026-08-31T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B146",
+      "batch_id": 146,
+      "title": "坪山区住房保障中心关于2026年第二批次面向坪山区户籍在册轮候人配租公共租赁住房有关事项的通告",
+      "profile": {
+        "level": "district",
+        "region": "坪山区",
+        "organizer": "坪山区住房保障中心",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "2026年7月27日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "其中，以下两类在册轮候人认租本批次房源的，须符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】之后出具的经济状况核对报告： （1）352号令施行之日（2023年8月1日）后提交轮候申请的在册轮候人",
+          "（2）2025年曾发起经济状况核对并已受理的在册轮候人",
+          "轮候人按照原政策认租后，申请经济状况核对的，可能会影响后续的选房签约，请谨慎考虑"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          146
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        146,
+        2324
+      ],
+      "references": [
+        {
+          "id": 146,
+          "title": "坪山区住房保障中心关于2026年第二批次面向坪山区户籍在册轮候人配租公共租赁住房有关事项的通告",
+          "url": "https://www.szpsq.gov.cn/ztfw/zfbzfw/fptg/content/post_12911130.html",
+          "published_at": "2026-07-27T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-07-28T09:00:00",
+      "end": "2026-08-06T17:30:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B147",
+      "batch_id": 147,
+      "title": "坪山区住房保障中心关于2026年第一批次面向个人配租保障性租赁住房有关事项的通告",
+      "profile": {
+        "level": "district",
+        "region": "坪山区",
+        "organizer": "坪山区住房保障中心",
+        "housing_type": "baozu",
+        "audience": "personal",
+        "object_text": [
+          "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人"
+        ],
+        "qualifications": [
+          "认租本批次住房的，按照资格分为 两个队列 ，具体如下： 第一队列：申请人具有坪山区户籍，在本市正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险），且在本市累计缴纳社会保险3年以上",
+          "第二队列：申请人在坪山区正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险），且在本市累计缴纳社会保险1年以上",
+          "上述有关户籍信息以2026年7月20日18：00前属于坪山区户籍为准，2026年7月20日18：00及之后户籍从其他区迁入坪山区不视为符合“坪山区户籍”条件"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          2325
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        147,
+        2325
+      ],
+      "references": [
+        {
+          "id": 147,
+          "title": "坪山区住房保障中心关于2026年第一批次面向个人配租保障性租赁住房有关事项的通告",
+          "url": "https://www.szpsq.gov.cn/pszfbzzx/gkmlpt/content/12/12898/post_12898556.html",
+          "published_at": "2026-07-20T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-07-21T09:00:00",
+      "end": "2026-07-30T17:30:00",
+      "units": 303,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "摇号",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": true,
+      "review": null
+    },
+    {
+      "code": "B15",
+      "batch_id": 15,
+      "title": "光明区住房和建设局关于面向光明区企事业单位配租保障性租赁住房（2026年第三批次）的通告（住保租〔2026〕030号）",
+      "profile": {
+        "level": "district",
+        "region": "光明区",
+        "organizer": "光明区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "enterprise",
+        "object_text": [
+          "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的企事业单位"
+        ],
+        "qualifications": [],
+        "employee_conditions": [
+          "同一队列内的企事业单位，由区住房主管部门根据房源情况及符合条件的职工需求按职住平衡原则统筹安排，暂不执行原有配额制度"
+        ],
+        "project_regions": [],
+        "evidence_ids": [
+          15,
+          8
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        8,
+        15,
+        2277
+      ],
+      "references": [
+        {
+          "id": 8,
+          "title": "光明区住房和建设局关于保障性租赁住房（2026年第三批次）配租结果的通告",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12999540.html",
+          "published_at": "2026-09-20T00:00:00",
+          "stage": null,
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 15,
+          "title": "光明区住房和建设局关于面向光明区企事业单位配租保障性租赁住房（2026年第三批次）的通告（住保租〔2026〕030号）",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12953969.html",
+          "published_at": "2026-08-25T16:50:44",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-08-27T09:00:00",
+      "end": "2026-09-13T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B16",
+      "batch_id": 16,
+      "title": "光明区住房和建设局关于面向光明区企事业单位配租保障性租赁住房（2026年第二批次）的通告（住保租〔2026〕026号）",
+      "profile": {
+        "level": "district",
+        "region": "光明区",
+        "organizer": "光明区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "enterprise",
+        "object_text": [
+          "本次配租对象为在供应通告发布前进入光明区保障性租赁住房需求库的在库企事业单位"
+        ],
+        "qualifications": [],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          16,
+          12
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        12,
+        16,
+        2278
+      ],
+      "references": [
+        {
+          "id": 12,
+          "title": "光明区住房和建设局关于保障性租赁住房（2026年第二批次）配租结果的通告",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12971121.html",
+          "published_at": "2026-09-07T00:00:00",
+          "stage": null,
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 16,
+          "title": "光明区住房和建设局关于面向光明区企事业单位配租保障性租赁住房（2026年第二批次）的通告（住保租〔2026〕026号）",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12937948.html",
+          "published_at": "2026-08-14T15:45:39",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-08-17T09:00:00",
+      "end": "2026-08-26T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B17",
+      "batch_id": 17,
+      "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房有关事项的通告（住保租〔2026〕024号）",
+      "profile": {
+        "level": "district",
+        "region": "光明区",
+        "organizer": "光明区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件： 1.2026年8月14日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为光明区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "2.符合我市公共租赁住房收入财产限额标准，且经济状况核对报告出具日期须在2026年1月1日之后",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          17,
+          6
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        6,
+        7,
+        9,
+        11,
+        17
+      ],
+      "references": [
+        {
+          "id": 6,
+          "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房第三场次选房名单及选房签约等有关事项的通告",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12999544.html",
+          "published_at": "2026-09-22T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 7,
+          "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房第二场次选房名单及选房签约等有关事项的通告",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12999542.html",
+          "published_at": "2026-09-20T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 9,
+          "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房认租资格结果及选房签约等有关事项的通告",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12989752.html",
+          "published_at": "2026-09-18T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 11,
+          "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房认租资格核查结果的公示",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12971639.html",
+          "published_at": "2026-09-08T00:00:00",
+          "stage": "review",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 17,
+          "title": "光明区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的光明区户籍在册轮候人（家庭）配租公共租赁住房有关事项的通告（住保租〔2026〕024号）",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_12937946.html",
+          "published_at": "2026-08-14T15:28:03",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-08-15T09:00:00",
+      "end": "2026-08-29T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "已有官方公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B301",
+      "batch_id": 301,
+      "title": "深圳市福田区住房和建设局关于2026年第二批面向符合收入财产限额标准的福田区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕033号）",
+      "profile": {
+        "level": "district",
+        "region": "福田区",
+        "organizer": "深圳市福田区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件: （一）2026年9月1日18时前（含当日）属于福田区户籍，且在深圳市公共租赁住房轮候库中登记为福田区户籍的在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】之后出具的经济状况核对报告，或经民政部门认定的特困人员、低保家庭、低保边缘家庭",
+          "注： 1.经济状况核对已转为常态化受理，在册轮候家庭日常如需申请经济状况核对，请登录深圳市住房和建设局官方网站，进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，线上提出经济状况核对申请，家庭成员（包括申请人和已成年的共同申请人）携带《深圳市公共租赁住房申请家庭经济状况申报表》到深圳市福田区住房建设和土地整备事务中心受理窗口（地址：福田区福强路益田五街福田花园大厦第1层102号，工作日9:00-12:00，14:00-18:00）提交相关资料，并在现场签署《承诺和授权书》和《关于经济状况核对有关事项的提醒告知书》",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          301
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        301
+      ],
+      "references": [
+        {
+          "id": 301,
+          "title": "深圳市福田区住房和建设局关于2026年第二批面向符合收入财产限额标准的福田区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕033号）",
+          "url": "https://www.szft.gov.cn/ftqjsj/gkmlpt/content/12/12963/post_12963560.html",
+          "published_at": "2026-09-02T09:39:23",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-09-02T10:00:00",
+      "end": "2026-09-22T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B34",
+      "batch_id": 34,
+      "title": "罗湖区住房和建设局关于2026年度第三批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房有关事项的通告（住保租〔2026〕035号）",
+      "profile": {
+        "level": "district",
+        "region": "罗湖区",
+        "organizer": "罗湖区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件: （一）2026年9月23日18:00前（含当日）属于罗湖区户籍，且在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】之后出具的经济状况核对报告",
+          "注： 1.经济状况核对已转为常态化受理，在册轮候家庭日常如需申请经济状况核对，请访问深圳市住房和建设局官方网站（https://zjj.sz.gov.cn/），进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，提出经济状况核对申请",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          34,
+          2265
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        34,
+        2265
+      ],
+      "references": [
+        {
+          "id": 34,
+          "title": "罗湖区住房和建设局关于2026年度第三批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房有关事项的通告（住保租〔2026〕035号）",
+          "url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/content/12/12997/post_12997414.html",
+          "published_at": "2026-09-24T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 2265,
+          "title": "罗湖区住房和建设局关于公示2026年度第三批公共租赁住房认租申请初审结果及有关事项的通告",
+          "url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/content/13/13033/post_13033510.html",
+          "published_at": "2026-10-21T00:00:00",
+          "stage": "review",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        }
+      ],
+      "stage": "review",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-09-24T10:00:00",
+      "end": "2026-10-13T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "当前节点，已有公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": {
+        "start": "2026-10-22",
+        "end": "2026-10-28",
+        "eligible": 403,
+        "ineligible": 35,
+        "evidence": "公示时间和方式 从2026年10月22日至2026年10月28日",
+        "notice_id": 2265,
+        "label": "初审公示"
+      }
+    },
+    {
+      "code": "B4",
+      "batch_id": 4,
+      "title": "光明区住房和建设局关于2026年第一批次面向个人配租保障性租赁住房的通告（住保租〔2026〕038号）",
+      "profile": {
+        "level": "district",
+        "region": "光明区",
+        "organizer": "光明区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "personal",
+        "object_text": [
+          "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人"
+        ],
+        "qualifications": [
+          "认租本批次住房的，按照资格分为三个队列，具体如下： （一）第一队列：申请人具有光明区户籍，在本市正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险），且在本市累计缴纳社会保险3年以上",
+          "（二）第二队列：申请人在光明区企事业单位正常缴纳社会保险（养老保险或者医疗保险，不包含少儿医疗保险），且在本市累计缴纳社会保险1年以上",
+          "（三）第三队列：申请人在本市正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险），且在本市累计缴纳社会保险1年以上"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          4,
+          1058
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        2,
+        4,
+        1058,
+        2025
+      ],
+      "references": [
+        {
+          "id": 2,
+          "title": "光明区住房和建设局关于2026年第一批次面向个人配租保障性租赁住房公证摇号的通告",
+          "url": "https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/gzgg/content/post_13021434.html",
+          "published_at": "2026-10-15T00:00:00",
+          "stage": null,
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 4,
+          "title": "光明区住房和建设局关于2026年第一批次面向个人配租保障性租赁住房的通告（住保租〔2026〕038号）",
+          "url": "https://www.szgm.gov.cn/132100/135232/bzcs/1210243/content/post_13021117.html",
+          "published_at": "2026-09-30T15:40:57",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 1058,
+          "title": "光明区住房和建设局关于2026年第一批次面向个人配租保障性租赁住房公证摇号结果的通告",
+          "url": "https://www.szgm.gov.cn/xxgk/xqgwhxxgkml/gzgg/content/post_13024633.html",
+          "published_at": "2026-10-16T10:54:41",
+          "stage": "lottery",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        }
+      ],
+      "stage": "lottery",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-10-08T09:00:00",
+      "end": "2026-10-13T18:00:00",
+      "units": 1963,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "摇号",
+          "当前节点，已有公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": true,
+      "review": null
+    },
+    {
+      "code": "B501",
+      "batch_id": 501,
+      "title": "南山区住房和建设局关于2026年度面向符合收入财产限额标准的南山区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕018号）",
+      "profile": {
+        "level": "district",
+        "region": "南山区",
+        "organizer": "南山区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件： （一）2026年6月30日18:00属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）持有2026年1月1日（含本日）之后出具的符合收入财产限额标准的经济状况核对报告或经民政部门认定为特困人员、低保家庭、低保边缘家庭",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册",
+          "2.2026年6月30日（含本日）18：00及之后户籍从其他区迁入或登记为南山户籍在册轮候人，不符合本次认租申请条件"
+        ],
+        "employee_conditions": [],
+        "project_regions": [
+          "龙华区"
+        ],
+        "evidence_ids": [
+          501,
+          474
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        474,
+        482,
+        501
+      ],
+      "references": [
+        {
+          "id": 474,
+          "title": "深圳市南山区住房和建设局关于2026年度面向符合收入财产限额标准的南山区户籍在册轮候人配租公共租赁住房选房名单及选房有关事项的通告（住保租〔2026〕018号）",
+          "url": "https://www.szns.gov.cn/bsfw/ztfw/zflyfwzt/xmfpjtcgg/content/post_12932841.html",
+          "published_at": "2026-08-12T11:02:21",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 482,
+          "title": "深圳市南山区住房和建设局关于2026年度面向符合收入财产限额标准的南山区户籍在册轮候人认租公共租赁住房资格审核结果及有关事项的公示（住保租〔2026〕018号）",
+          "url": "https://www.szns.gov.cn/bsfw/ztfw/zflyfwzt/xmfpjtcgg/content/post_12910727.html",
+          "published_at": "2026-07-27T09:16:40",
+          "stage": "review",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 501,
+          "title": "南山区住房和建设局关于2026年度面向符合收入财产限额标准的南山区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕018号）",
+          "url": "https://www.szns.gov.cn/bsfw/ztfw/zflyfwzt/xmfpjtcgg/content/post_12871244.html",
+          "published_at": "2026-07-01T09:05:53",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-07-01T10:00:00",
+      "end": "2026-07-17T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "已有官方公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B674",
+      "batch_id": 674,
+      "title": "深圳市宝安区住房和建设局关于2026年度面向符合收入财产限额标准的宝安区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕029号）",
+      "profile": {
+        "level": "district",
+        "region": "宝安区",
+        "organizer": "深圳市宝安区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件: （一）2026年9月4日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为宝安区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】之后出具的经济状况核对报告，或经民政部门认定的特困人员、低保家庭、低保边缘家庭",
+          "注：1.经济状况核对已转为常态化受理，在册轮候家庭日常如需申请经济状况核对，请访问深圳市住房和建设局官方网站，进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，线上提出经济状况核对申请",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          674
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        674
+      ],
+      "references": [
+        {
+          "id": 674,
+          "title": "深圳市宝安区住房和建设局关于2026年度面向符合收入财产限额标准的宝安区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕029号）",
+          "url": "https://www.baoan.gov.cn/bajshej/gkmlpt/content/12/12969/post_12969464.html",
+          "published_at": "2026-09-07T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "waiting",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-09-07T09:00:00",
+      "end": "2026-09-18T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "未采集到后续公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B682",
+      "batch_id": 682,
+      "title": "深圳市宝安区住房和建设局关于2026年度面向个人配租保障性租赁住房有关事项的通告（住保租〔2026〕023号）",
+      "profile": {
+        "level": "district",
+        "region": "宝安区",
+        "organizer": "深圳市宝安区住房和建设局",
+        "housing_type": "baozu",
+        "audience": "personal",
+        "object_text": [
+          "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人"
+        ],
+        "qualifications": [
+          "认租本批次住房的，按照申请家庭资格条件分为三个队列，具体如下： 1.第一队列：申请人具有宝安区户籍，在本市正常缴纳社会保险（养老保险或者医疗保险，不含少儿医疗保险,下同），且累计缴纳社会保险3年以上",
+          "2.第二队列：申请人任职于宝安区注册单位（含机关单位、企事业单位等），并在宝安区累计缴纳社会保险1年以上",
+          "3.第三队列：申请人在本市正常缴纳社会保险，且累计缴纳社会保险1年以上"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          682,
+          670
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        670,
+        672,
+        677,
+        682
+      ],
+      "references": [
+        {
+          "id": 670,
+          "title": "深圳市宝安区住房和建设局关于2026年面向个人配租保障性租赁住房选房结果的公示（住保租〔2026〕023号）",
+          "url": "https://www.baoan.gov.cn/bajshej/gkmlpt/content/13/13001/post_13001727.html",
+          "published_at": "2026-09-28T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 672,
+          "title": "深圳市宝安区住房和建设局关于2026年度面向个人配租保障性租赁住房认租资格终审结果及选房签约事宜的通告（住保租〔2026〕023号）",
+          "url": "https://www.baoan.gov.cn/bajshej/gkmlpt/content/12/12988/post_12988807.html",
+          "published_at": "2026-09-18T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 677,
+          "title": "深圳市宝安区住房和建设局关于2026年度面向个人配租保障性租赁住房公证摇号结果的通告",
+          "url": "https://www.baoan.gov.cn/bajshej/gkmlpt/content/12/12954/post_12954807.html",
+          "published_at": "2026-08-26T15:06:53",
+          "stage": "lottery",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 682,
+          "title": "深圳市宝安区住房和建设局关于2026年度面向个人配租保障性租赁住房有关事项的通告（住保租〔2026〕023号）",
+          "url": "https://www.baoan.gov.cn/bajshej/gkmlpt/content/12/12930/post_12930935.html",
+          "published_at": "2026-08-11T11:12:51",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-08-11T09:00:00",
+      "end": "2026-08-20T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "摇号",
+          "已有官方公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": true,
+      "review": null
+    },
+    {
+      "code": "B792",
+      "batch_id": 792,
+      "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕016号）",
+      "profile": {
+        "level": "district",
+        "region": "龙华区",
+        "organizer": "深圳市龙华区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件： （一）2026年6月25日18:00属龙华区户籍且在深圳市保障性住房统一轮候系统登记为龙华区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有2025年12月25日之后出具的经济状况核对报告"
+        ],
+        "employee_conditions": [],
+        "project_regions": [
+          "龙华区"
+        ],
+        "evidence_ids": [
+          792,
+          774
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        774,
+        779,
+        782,
+        785,
+        792,
+        2273,
+        2274,
+        2275,
+        2276
+      ],
+      "references": [
+        {
+          "id": 774,
+          "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房第三批次选房名单及选房签约等有关事项的通告",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_12968280.html",
+          "published_at": "2026-09-04T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 779,
+          "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房第二批次选房名单及选房签约等有关事项的通告",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_12959002.html",
+          "published_at": "2026-08-28T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 782,
+          "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房第一批次选房名单及选房签约等有关事项的通告",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_12946324.html",
+          "published_at": "2026-08-21T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 785,
+          "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房认租家庭资格审核结果的公示",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_12921770.html",
+          "published_at": "2026-08-04T00:00:00",
+          "stage": "review",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": false
+        },
+        {
+          "id": 792,
+          "title": "深圳市龙华区住房和建设局关于2026年面向符合收入财产限额标准的龙华区户籍在册轮候人配租公共租赁住房的通告（住保租〔2026〕016号）",
+          "url": "https://www.szlhq.gov.cn/zdlyxxgk/bzxzf/zfbzdt/content/post_12863139.html",
+          "published_at": "2026-06-25T14:31:57",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-06-26T09:00:00",
+      "end": "2026-07-17T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "已有官方公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B80",
+      "batch_id": 80,
+      "title": "罗湖区住房和建设局关于2026年度第二批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房有关事项的通告（住保租〔2026〕012号）",
+      "profile": {
+        "level": "district",
+        "region": "罗湖区",
+        "organizer": "罗湖区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件: （一）2026年6月8日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2025年12月8日】之后出具的经济状况核对报告",
+          "注： 1.经济状况核对已转为常态化受理，在册轮候家庭日常如需申请经济状况核对，请访问深圳市住房和建设局官方网站（https://zjj.sz.gov.cn/），进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，提出经济状况核对申请",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          80,
+          56
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        56,
+        59,
+        80
+      ],
+      "references": [
+        {
+          "id": 56,
+          "title": "罗湖区住房和建设局关于2026年度第二批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房第二批次选房名单及选房签约有关事项的通告",
+          "url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/content/12/12904/post_12904195.html",
+          "published_at": "2026-07-22T15:00:28",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 59,
+          "title": "罗湖区住房和建设局关于2026年度第二批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房第一批次选房名单及选房签约有关事项的通告",
+          "url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/content/12/12897/post_12897928.html",
+          "published_at": "2026-07-17T16:56:03",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 80,
+          "title": "罗湖区住房和建设局关于2026年度第二批面向符合收入财产限额标准的辖区户籍在册轮候家庭配租公共租赁住房有关事项的通告（住保租〔2026〕012号）",
+          "url": "https://www.szlh.gov.cn/lhqzfhjsj/gkmlpt/content/12/12828/post_12828261.html",
+          "published_at": "2026-06-08T15:50:43",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-06-09T10:00:00",
+      "end": "2026-06-23T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "未采集到后续公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    },
+    {
+      "code": "B972",
+      "batch_id": 972,
+      "title": "龙岗区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的龙岗户籍在册轮候人配租公...",
+      "profile": {
+        "level": "district",
+        "region": "龙岗区",
+        "organizer": "龙岗区住房和建设局",
+        "housing_type": "gongzu",
+        "audience": "personal",
+        "object_text": [
+          "本次配租对象需同时满足以下两项条件: （一）2026年8月31日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为龙岗区户籍的公共租赁住房在册轮候人"
+        ],
+        "qualifications": [
+          "（二）符合我市公共租赁住房收入财产限额标准，且提交认租申请时持有【2026年1月1日】之后出具的经济状况核对报告",
+          "注：1.经济状况核对已转为常态化受理，在册轮候家庭日常如需申请经济状况核对，请访问深圳市住房和建设局官方网站（https://zjj.sz.gov.cn/），进入“住房保障服务”栏目，在“住房保障个人服务窗口”登录后，点击“经济状况核对”，按要求提出经济状况核对申请",
+          "选定住房并签订公共租赁住房租赁合同后，认租家庭将退出公共租赁住房轮候册"
+        ],
+        "employee_conditions": [],
+        "project_regions": [],
+        "evidence_ids": [
+          972,
+          968
+        ],
+        "issues": []
+      },
+      "notice_ids": [
+        968,
+        969,
+        971,
+        972
+      ],
+      "references": [
+        {
+          "id": 968,
+          "title": "龙岗区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的龙岗户籍在册轮候人配租公共租赁住房选房名单及选房签约等有关事项的通告（第二批次选房）",
+          "url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/lhpz/content/post_13023380.html",
+          "published_at": "2026-10-16T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 969,
+          "title": "龙岗区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的龙岗户籍在册轮候人配租公共租赁住房选房名单及选房签约等有关事项的通告（第一批次选房）",
+          "url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/lhpz/content/post_13013253.html",
+          "published_at": "2026-10-10T00:00:00",
+          "stage": "selection",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 971,
+          "title": "龙岗区住房和建设局关于2026年度第二批次面向符合收入财产限额的龙岗户籍在册轮候人配租公共租赁住房认租申请资格核查结果的公示",
+          "url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/lhpz/content/post_12990449.html",
+          "published_at": "2026-09-20T00:00:00",
+          "stage": "review",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        },
+        {
+          "id": 972,
+          "title": "龙岗区住房和建设局关于2026年度第二批次面向符合收入财产限额标准的龙岗户籍在册轮候人配租公...",
+          "url": "https://www.lg.gov.cn/bmzz/zjj/zfbz/lhpz/content/post_12961525.html",
+          "published_at": "2026-09-01T00:00:00",
+          "stage": "applying",
+          "is_new": false,
+          "is_update": false,
+          "vacancy": true
+        }
+      ],
+      "stage": "selection",
+      "is_open": false,
+      "in_transit": true,
+      "start": "2026-09-01T09:00:00",
+      "end": "2026-09-14T18:00:00",
+      "units": null,
+      "timeline": [
+        [
+          "发布",
+          "配租通告已收录"
+        ],
+        [
+          "认租",
+          "认租已截止"
+        ],
+        [
+          "资格核查",
+          "已有官方公告"
+        ],
+        [
+          "选房",
+          "当前节点，已有公告"
+        ],
+        [
+          "签约",
+          "未采集到后续公告"
+        ]
+      ],
+      "applicable_lottery": false,
+      "review": null
+    }
+  ],
+  "totals": {
+    "open_batches": 5,
+    "new_notices": 0,
+    "updated_notices": 0,
+    "vacancy_notices": 0,
+    "lottery_batches": 0,
+    "selection_batches": 0,
+    "in_transit_batches": 21,
+    "personal_batches": 18,
+    "enterprise_batches": 2,
+    "unknown_batches": 1,
+    "object_examples": [
+      "本次配租对象需同时满足以下两项条件： （一）2026年10月8日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人",
+      "2026年10月12日18:00前属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人",
+      "本次房源配租对象为2026年10月20日18:00属龙华区户籍且在深圳市保障性住房轮候系统登记为龙华区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件： （一）2026年10月21日（含本日）18：00前属于盐田区户籍，且同时在深圳市保障性住房统一轮候系统登记为盐田区户籍的公共租赁住房在册轮候人",
+      "本批次住房配租对象为持有才享光明“人才码”的高层次人才",
+      "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人",
+      "本批次住房面向高层次人才配租，包括在本市全职工作的“鹏城优才卡”持卡人，以及其他经市委人才工作领导小组办公室确定的本市急需紧缺人才",
+      "2026年7月27日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人",
+      "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的企事业单位",
+      "本次配租对象为在供应通告发布前进入光明区保障性租赁住房需求库的在库企事业单位",
+      "本次配租对象需同时满足以下两项条件： 1.2026年8月14日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为光明区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件: （一）2026年9月1日18时前（含当日）属于福田区户籍，且在深圳市公共租赁住房轮候库中登记为福田区户籍的在册轮候人",
+      "本次配租对象需同时满足以下两项条件: （一）2026年9月23日18:00前（含当日）属于罗湖区户籍，且在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件： （一）2026年6月30日18:00属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件: （一）2026年9月4日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为宝安区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件： （一）2026年6月25日18:00属龙华区户籍且在深圳市保障性住房统一轮候系统登记为龙华区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件: （一）2026年6月8日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人",
+      "本次配租对象需同时满足以下两项条件: （一）2026年8月31日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为龙岗区户籍的公共租赁住房在册轮候人"
+    ]
+  },
+  "categories": {
+    "city_baozu": {
+      "open_batches": 0,
+      "new_notices": 0,
+      "updated_notices": 0,
+      "vacancy_notices": 0,
+      "lottery_batches": 0,
+      "selection_batches": 0,
+      "in_transit_batches": 1,
+      "personal_batches": 1,
+      "enterprise_batches": 0,
+      "unknown_batches": 0,
+      "object_examples": [
+        "本批次住房面向高层次人才配租，包括在本市全职工作的“鹏城优才卡”持卡人，以及其他经市委人才工作领导小组办公室确定的本市急需紧缺人才"
+      ]
+    },
+    "district_baozu": {
+      "open_batches": 1,
+      "new_notices": 0,
+      "updated_notices": 0,
+      "vacancy_notices": 0,
+      "lottery_batches": 0,
+      "selection_batches": 0,
+      "in_transit_batches": 7,
+      "personal_batches": 4,
+      "enterprise_batches": 2,
+      "unknown_batches": 1,
+      "object_examples": [
+        "本批次住房配租对象为持有才享光明“人才码”的高层次人才",
+        "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人",
+        "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的企事业单位",
+        "本次配租对象为在供应通告发布前进入光明区保障性租赁住房需求库的在库企事业单位"
+      ]
+    },
+    "personal_baozu": {
+      "open_batches": 0,
+      "new_notices": 0,
+      "updated_notices": 0,
+      "vacancy_notices": 0,
+      "lottery_batches": 0,
+      "selection_batches": 0,
+      "in_transit_batches": 5,
+      "personal_batches": 5,
+      "enterprise_batches": 0,
+      "unknown_batches": 0,
+      "object_examples": [
+        "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的个人",
+        "本批次住房面向高层次人才配租，包括在本市全职工作的“鹏城优才卡”持卡人，以及其他经市委人才工作领导小组办公室确定的本市急需紧缺人才"
+      ]
+    },
+    "enterprise_baozu": {
+      "open_batches": 0,
+      "new_notices": 0,
+      "updated_notices": 0,
+      "vacancy_notices": 0,
+      "lottery_batches": 0,
+      "selection_batches": 0,
+      "in_transit_batches": 2,
+      "personal_batches": 0,
+      "enterprise_batches": 2,
+      "unknown_batches": 0,
+      "object_examples": [
+        "本批次住房配租对象为符合政府组织配租的保障性租赁住房条件的企事业单位",
+        "本次配租对象为在供应通告发布前进入光明区保障性租赁住房需求库的在库企事业单位"
+      ]
+    },
+    "gongzu": {
+      "open_batches": 4,
+      "new_notices": 0,
+      "updated_notices": 0,
+      "vacancy_notices": 0,
+      "lottery_batches": 0,
+      "selection_batches": 0,
+      "in_transit_batches": 13,
+      "personal_batches": 13,
+      "enterprise_batches": 0,
+      "unknown_batches": 0,
+      "object_examples": [
+        "本次配租对象需同时满足以下两项条件： （一）2026年10月8日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人",
+        "2026年10月12日18:00前属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人",
+        "本次房源配租对象为2026年10月20日18:00属龙华区户籍且在深圳市保障性住房轮候系统登记为龙华区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件： （一）2026年10月21日（含本日）18：00前属于盐田区户籍，且同时在深圳市保障性住房统一轮候系统登记为盐田区户籍的公共租赁住房在册轮候人",
+        "2026年7月27日（含本日）18:00前属于坪山区户籍，且同时在深圳市保障性住房统一轮候系统中登记为坪山区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件： 1.2026年8月14日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为光明区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件: （一）2026年9月1日18时前（含当日）属于福田区户籍，且在深圳市公共租赁住房轮候库中登记为福田区户籍的在册轮候人",
+        "本次配租对象需同时满足以下两项条件: （一）2026年9月23日18:00前（含当日）属于罗湖区户籍，且在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件： （一）2026年6月30日18:00属南山区户籍且在深圳市保障性住房轮候系统登记为南山区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件: （一）2026年9月4日（含本日）18:00前在深圳市保障性住房统一轮候系统登记为宝安区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件： （一）2026年6月25日18:00属龙华区户籍且在深圳市保障性住房统一轮候系统登记为龙华区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件: （一）2026年6月8日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为罗湖区户籍的公共租赁住房在册轮候人",
+        "本次配租对象需同时满足以下两项条件: （一）2026年8月31日18:00（含本日）前在深圳市保障性住房统一轮候系统登记为龙岗区户籍的公共租赁住房在册轮候人"
+      ]
+    }
+  },
+  "source_status": "已配置 25 个来源，异常 0 个，未检查 0 个",
+  "source_updated_at": "2026-10-22T09:02:28.465198",
+  "lookup_url": "https://hzk-283347622-d2gko9gqw36b68830-1511821740.tcloudbaseapp.com/hzktest/index.html?d=20261022",
+  "queryable_codes": []
+}

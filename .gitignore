@@ -1,0 +1,44 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# 密钥：.env 里有 PushPlus token，永远不要提交
+.env
+.env.*
+!.env.example
+
+# PushPlus 群组编码的临时落盘（32 位十六进制 .txt），等同于发消息的凭证
+/????????????????????????????????.txt
+
+# 数据库与运行时状态（每天有备份，见 data/backups）
+*.db
+*.db-wal
+*.db-shm
+data/backups/
+data/*.lock
+
+# 群编码同样是凭证；仓库只保留示例。
+data/groups.json
+data/*
+!data/groups.example.json
+
+logs/
+.pytest_cache/
+.codex-temp/
+.tmp_wx/
+reports/
+docs/report-previews/
+marketing/out/
+marketing/assets/*
+!marketing/assets/README.md
+
+# 查询页是构建产物，由 tools/build_lottery_lookup.py 生成
+lookup/
+lookup.zip
+
+# Local sharing tool artifacts and private validation records
+/分享输出/
+/data/share-tool/
+/data/lookup-source/
+/data/lookup-signing.env
+/data/selection-progress-private/
